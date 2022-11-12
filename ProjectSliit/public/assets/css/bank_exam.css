@@ -1,0 +1,275 @@
+.modal-background {
+    z-index:1000;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.bg-active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.quiz-modal {
+    position: relative;
+    background-color: white;
+    border-radius: 6px;
+    width:94%;
+    height:93%;
+}
+
+.modal-close {
+    position: absolute;
+    cursor: pointer;
+    top: 4px;
+    right: 15px;
+    font-weight: bold;
+}
+
+.form-check-input {
+    margin-top: 12px;
+}
+
+.course-one__single:hover {
+    transform: scale(1.03);
+}
+
+.course-one__image img:hover {
+    transform: scale(1.01);
+}
+
+.course-details__price {
+    background-color: #ffe082;
+    color: #fff;
+}
+
+.course-details__price-btn {
+    background-color: #ff6d00;
+}
+
+.course-details__price-btn:hover {
+    color: #ff6d00;
+}
+
+.course-one__link {
+    background-color: #ff6d00;
+    color: #fff;
+    transition: 2s;
+}
+
+.course-one__link:hover {
+    color: #ff6d00;
+    background-color: #ffe082;
+    transition: 2s;
+}
+
+.price_tag {
+    background-color: #ff6d00 !important;
+    color: #fff !important;
+    transform: rotate(5deg);
+}
+
+.price_tag:hover {
+    transform: rotate(-5deg);
+}
+
+.course-one__category {
+    background-color: #ff6d00 !important;
+}
+
+.course-one__category:hover {
+    background-color: #ffe082 !important;
+    color: #ff6d00 !important;
+    transform: rotate(10deg);
+}
+
+.course-details__price:hover {
+    transform: scale(1.03);
+    transition: 2s;
+}
+
+.course-details__price {
+    transition: 2s;
+}
+
+.course-details__meta-link:hover {
+    color: #ff6d00 !important;
+}
+
+.course-details__price-amount:hover {
+    transform: scale(1.04);
+    transition: 1s;
+}
+
+.course-details__price-amount {
+    transition: 1s;
+}
+
+.course_contains {
+    color: #ff6d00 !important;
+    font-size: 22px;
+    transition: 3s;
+}
+
+.course_contains:hover {
+    margin-left: -20px;
+    transition: 3s;
+}
+
+.thm-btn {
+    background-color: #ff6d00 !important;
+}
+
+.demo_btn:hover {
+    transition: 2s;
+}
+
+.demo_btn {
+    transition: 2s;
+    animation: leftBounce 25s linear;
+}
+
+.package_price {
+    animation: leftBounce 2s linear infinite;
+}
+
+@keyframes leftBounce {
+    0%, 100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(15px);
+    }
+}
+
+.thm-btn:hover {
+    background-color: #fff !important;
+    color: #ff6d00 !important;
+}
+
+.become-teacher__form-top {
+    background-color: #ff6d00 !important;
+}
+
+.become-teacher__form-btn:hover {
+    background-color: #ff6d00 !important;
+}
+
+.countdown-one__tag-line {
+    color: #ff6d00 !important;
+}
+
+.become-teacher__form:hover {
+    transform: scale(1.03);
+    transition: 2s;
+}
+
+.become-teacher__form {
+    transition: 2s;
+}
+
+.team-one__image img {
+    width: 200px;
+}
+
+.block-title h2 {
+    font-size: 42px !important;
+}
+
+.team-one__content h2 {
+    font-size: 25px !important;
+}
+
+.team-one__content h2:hover {
+    transform: scale(1.04);
+}
+
+.team-one__text {
+    font-size: 17px !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .dep_top_member {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .two__content h2 {
+        text-align: center !important;
+    }
+}
+
+.results {
+    float: right;
+    font-weight: 100;
+}
+
+.quiz_final_card {
+    margin-top: 110px;
+}
+
+.video-two {
+    position: relative;
+    padding: 120px 0;
+    background-image: url(../images/patter-1-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.video-two::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #e65100;
+    opacity: 0.6;
+}
+
+.top-member-btn {
+    background-color: #ff6d00 !important;
+}
+
+.course-details__tab-navs li a::before {
+    content: '';
+    width: 35px;
+    height: 10px;
+    background-color: #ff6d00;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) scaleY(0);
+    transform: translateX(-50%) scaleY(0);
+    -webkit-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    -webkit-transition: -webkit-transform .4s ease;
+    transition: -webkit-transform .4s ease;
+    transition: transform .4s ease;
+    transition: transform .4s ease, -webkit-transform .4s ease;
+}
+
+.course-details__tab-navs li a:hover, .course-details__tab-navs li a.active {
+    background-color: #ff6d00;
+    color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    .timer-section {
+        margin-top: -27px !important;
+    }
+}

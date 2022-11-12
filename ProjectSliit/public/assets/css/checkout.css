@@ -1,0 +1,50 @@
+.checkout {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.terms {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.terms-link {
+    color: #8e24aa;
+    font-weight: 500;
+}
+
+.terms-link:hover {
+    color: #8e24aa;
+    font-weight: 500;
+}
+
+.price {
+    float: right;
+    margin-right: 15px;
+}
+
+.price-desc {
+    list-style: none;
+    margin-left: -30px;
+}
+
+.payment-btn {
+    height: 55px !important;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.input-half {
+    width: 340px;
+    margin-left: 20px;
+}
+
+.remember {
+    margin-top: 9px;
+}
+
+@media only screen and (max-width: 991px) {
+    .card-summary {
+        text-align: center;
+    }
+}

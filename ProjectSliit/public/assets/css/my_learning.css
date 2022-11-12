@@ -1,0 +1,149 @@
+#openIq_packages .course-one__single:hover {
+    transform: scale(1.03);
+}
+
+#openIq_packages .course-one__image img:hover {
+    transform: scale(1.01);
+}
+
+#openIq_packages .course-one__link {
+    background-color: #039be5;
+    color: #fff;
+    transition: 2s;
+}
+
+#openIq_packages .course-one__link:hover {
+    color: #039be5;
+    background-color: #b3e5fc;
+    transition: 2s;
+}
+
+#openIq_packages .course-one__category {
+    background-color: #039be5 !important;
+}
+
+#openIq_packages .course-one__category:hover {
+    background-color: #b3e5fc !important;
+    color: #039be5 !important;
+    transform: rotate(10deg);
+}
+
+#governmentExam_packages .course-one__single:hover {
+    transform: scale(1.03);
+}
+
+#governmentExam_packages .course-one__image img:hover {
+    transform: scale(1.01);
+}
+
+#governmentExam_packages .course-one__link {
+    background-color: #d81b60;
+    color: #fff;
+    transition: 2s;
+}
+
+#governmentExam_packages .course-one__link:hover {
+    color: #d81b60;
+    background-color: #f8bbd0;
+    transition: 2s;
+}
+
+#governmentExam_packages .course-one__category {
+    background-color: #d81b60 !important;
+}
+
+#governmentExam_packages .course-one__category:hover {
+    background-color: #f8bbd0 !important;
+    color: #d81b60 !important;
+    transform: rotate(10deg);
+}
+
+#al_packages .course-one__single:hover {
+    transform: scale(1.03);
+}
+
+#al_packages .course-one__image img:hover {
+    transform: scale(1.01);
+}
+
+#al_packages .course-one__link {
+    background-color: #009688;
+    color: #fff;
+    transition: 2s;
+}
+
+#al_packages .course-one__link:hover {
+    color: #009688;
+    background-color: #b2dfdb;
+    transition: 2s;
+}
+
+#al_packages .course-one__category {
+    background-color: #009688 !important;
+}
+
+#al_packages .course-one__category:hover {
+    background-color: #b2dfdb !important;
+    color: #009688 !important;
+    transform: rotate(10deg);
+}
+
+#bankExam_packages .course-one__single:hover {
+    transform: scale(1.03);
+}
+
+#bankExam_packages .course-one__image img:hover {
+    transform: scale(1.01);
+}
+
+#bankExam_packages .course-one__link {
+    background-color: #ff6d00;
+    color: #fff;
+    transition: 2s;
+}
+
+#bankExam_packages .course-one__link:hover {
+    color: #ff6d00;
+    background-color: #ffe082;
+    transition: 2s;
+}
+
+#bankExam_packages .course-one__category {
+    background-color: #ff6d00 !important;
+}
+
+#bankExam_packages .course-one__category:hover {
+    background-color: #ffe082 !important;
+    color: #ff6d00 !important;
+    transform: rotate(10deg);
+}
+
+#kiddiesIq_packages .course-one__single:hover {
+    transform: scale(1.03);
+}
+
+#kiddiesIq_packages .course-one__image img:hover {
+    transform: scale(1.01);
+}
+
+#kiddiesIq_packages .course-one__link {
+    background-color: #7c4bc0;
+    color: #fff;
+    transition: 2s;
+}
+
+#kiddiesIq_packages .course-one__link:hover {
+    color: #7c4bc0;
+    background-color: #e1bee7;
+    transition: 2s;
+}
+
+#kiddiesIq_packages .course-one__category {
+    background-color: #7c4bc0 !important;
+}
+
+#kiddiesIq_packages .course-one__category:hover {
+    background-color: #e1bee7 !important;
+    color: #7c4bc0 !important;
+    transform: rotate(10deg);
+}

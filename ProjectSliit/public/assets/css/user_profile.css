@@ -1,0 +1,15 @@
+.user_profile {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.otp-btn {
+    margin-left: 124px;
+}
+
+@media only screen and (max-width: 767px) {
+    .card-primary {
+        margin-bottom: 30px;
+    }
+}
+
